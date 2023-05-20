@@ -3,7 +3,10 @@ import json
 
 import requests
 
-from .languages import c_lang_config, cpp_lang_config, java_lang_config, c_lang_spj_config, c_lang_spj_compile, py2_lang_config, py3_lang_config, go_lang_config, php_lang_config, js_lang_config
+from .languages import (c_lang_config, c_lang_spj_compile, c_lang_spj_config,
+                        cpp_lang_config, go_lang_config, java_lang_config,
+                        js_lang_config, php_lang_config, py2_lang_config,
+                        py3_lang_config)
 
 
 class JudgeServerClientError(Exception):
